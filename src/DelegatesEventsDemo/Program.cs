@@ -20,7 +20,7 @@ namespace DelegatesEventsDemo
             // Removing methods from delegate
             book.NameChanged -= OnNameChangedUpdateUI;
 
-            book.Name = "My Garde Book Three";
+            book.Name = "My Grade Book Three";
 
 
             // Subscribing to the event
@@ -32,6 +32,7 @@ namespace DelegatesEventsDemo
             book.ClassStrengthChanged -= ClassStrengthChangedUpdateDB;
             book.ClassStreangth = 123;
 
+            Console.WriteLine("Press any key to exit...");
             Console.ReadLine();
         }
 
